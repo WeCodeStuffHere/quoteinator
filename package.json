@@ -1,0 +1,19 @@
+{
+  "name": "quoteinator",
+  "version": "1.0.0",
+  "description": "Generate inspirational quotes from text",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jimp": "^0.16.1",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7"
+  }
+}
